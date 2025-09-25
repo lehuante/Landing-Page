@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video class="background-video" autoplay muted loop>
+    <source src="VID/Buceando.mp4" type="video/mp4">
+    </video>
+    <header>
+        <section class="header__telefono">
+            <svg width="800" height="800" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path data-name="Path 27" d="M15.5 16A15.517 15.517 0 0 1 0 .5.5.5 0 0 1 .5 0h2.845a1.85 1.85 0 0 1 1.317.546l1.962 1.961a1.5 1.5 0 0 1 0 2.122L5.2 6.048A11.9 11.9 0 0 0 9.952 10.8l1.419-1.42a1.5 1.5 0 0 1 2.121 0l1.962 1.962A1.85 1.85 0 0 1 16 12.656V15.5a.5.5 0 0 1-.5.5M1.009 1A14.52 14.52 0 0 0 15 14.992v-2.336a.86.86 0 0 0-.253-.611l-1.962-1.962a.5.5 0 0 0-.707 0l-1.678 1.68a.5.5 0 0 1-.578.093A12.9 12.9 0 0 1 4.145 6.18a.5.5 0 0 1 .092-.579l1.68-1.679a.5.5 0 0 0 0-.708L3.955 1.253A.86.86 0 0 0 3.345 1Z"/></svg>
+            <p>+52 55.1301.4709</p>
+        </section>
+        <section class="header__logo">
+            <img src="IMG/Logo.png" alt="logo" >
+        </section>
+        <section class="header__instagram">
+            <svg width="800" height="800" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 3.5h1M4.5.5h6a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4Zm3 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z" stroke="#000"/></svg>
+        </section>
+    </header>
+    <main>
+        <h1 class="main__h1--title">Sumérgete en Cozumel</h1>
+        <h2 class="main__h2--subtitle">Descubre el mundo submarino. Nuevas sensaciones. Siéntete libre. Ven a bucear</h3>
+        <section >
+        <form  class="main__section--form"  action="">
+            <h2>Agenda tu buceo</h2>
+            <section class="form__section">
+                <fieldset class="main__fieldset--nivel">
+                    <legend>Experiencia</legend>
+                    <div>
+                        <input type="radio" id="certificado" name="nivel_buceo" value="certificado" required>
+                        <label for="certificado">Certificado</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="no_certificado" name="nivel_buceo" value="no_certificado" required>
+                        <label for="no_certificado">No certificado</label>
+                    </div>
+                </fieldset>
+            </section>
+            <SECTION class="form__section"> 
+                <label for="nombre" aria-label="Ingresa tu nombre Completo"> Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </SECTION>
+            <section class="form__section">
+                <label for="fecha" aria-label="Ingresa la fecha de tu buceo"> Fecha</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </section>
+
+            <button class="main__button--submit" type="submit">agenda tu buceo</button>
+        </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
