@@ -26,6 +26,7 @@ header {
     gap: 0.5rem;
     img {
         height: 5rem;
+        opacity: .70;
     }
     
     svg {
@@ -137,5 +138,20 @@ body {
             }
         }
     }
-
-
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        img {
+            height: 4rem;
+        }
+    }
+    a:hover {
+        opacity: 0.85;
+    }
+}
